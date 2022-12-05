@@ -3,8 +3,6 @@ Before starting ✋. I want to tell you that every star 🌟 added to my space s
 <div align="center" style="margin-top:10px">
 
 [![](public/screen.webp)](https://andronasef.github.io/publicapis)
-[![GitHub stars](https://img.shields.io/github/stars/andronasef/publicapis.svg?style=flat&label=Star&maxAge=3600&logo=github&color=success)](https://github.com/andronasef/publicapis/)
-[![HitCount](https://hits.dwyl.com/andronasef/publicapis.svg?style=flat)](https://hits.dwyl.com/andronasef/publicapis)
 
 </div>
 
