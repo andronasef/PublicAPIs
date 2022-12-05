@@ -1,8 +1,8 @@
 <script>
-  import { apis, categories, category } from '../stores'
-  import { getApis } from './func'
+  import { apis, categories, category } from '../stores';
+  import { getApis } from './func';
 
-  $: if ($category) getApis()
+  $: if ($category) getApis();
 </script>
 
 <main class="py-4 w-full" id="apis">
@@ -25,16 +25,16 @@
     {#if $apis}
       <div class="flex flex-wrap gap-6 justify-center md:justify-items-start">
         {#each $apis['entries'] as api}
-          <div
+          <a
+            target="_blank"
+            href={api['Link']}
             class="rounded-xl bg-base-100 w-[calc(100%-1rem)] card overflow-hidden h-[12.5rem] md:w-[calc(33%-1rem)] hover:scale-105 transition active:scale-95"
           >
-            <a target="_blank" href={api['Link']}>
-              <div class="card-body ">
-                <h2 class="card-title">{api['API']}</h2>
-                <p class="text-ellipsis">{api['Description']}</p>
-              </div>
-            </a>
-          </div>
+            <div class="card-body ">
+              <h2 class="card-title">{api['API']}</h2>
+              <p class="text-ellipsis">{api['Description']}</p>
+            </div>
+          </a>
         {/each}
       </div>
     {:else}
