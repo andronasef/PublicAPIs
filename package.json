@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify/svelte": "^2.2.1",
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "postcss-load-config": "^3.1.4",
-    "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.5",
-    "tailwindcss": "^3.0.23",
-    "vite": "^2.9.9"
+    "@iconify/svelte": "^3.0.1",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.55.0",
+    "svelte-preprocess": "^5.0.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.3"
   },
   "dependencies": {
-    "daisyui": "^2.15.2"
+    "daisyui": "^2.46.0"
   }
 }
