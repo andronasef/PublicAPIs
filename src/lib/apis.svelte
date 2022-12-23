@@ -31,6 +31,15 @@
             class="rounded-xl bg-base-100 w-[calc(100%-1rem)] card overflow-hidden h-[12.5rem] md:w-[calc(33%-1rem)] hover:scale-105 transition active:scale-95"
           >
             <div class="card-body ">
+              <img
+                loading="lazy"
+                width="32"
+                height="32"
+                src="https://www.google.com/s2/favicons?domain={api[
+                  'Link'
+                ]}&sz=128"
+                alt=""
+              />
               <h2 class="card-title">{api['API']}</h2>
               <p class="text-ellipsis">{api['Description']}</p>
             </div>
